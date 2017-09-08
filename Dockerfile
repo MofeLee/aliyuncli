@@ -16,6 +16,7 @@ RUN apk add --update \
     py-pip \
     build-base \
     jq \
+    ca-certificates \
   && pip install \
     aliyuncli \
     aliyun-python-sdk-ecs \
